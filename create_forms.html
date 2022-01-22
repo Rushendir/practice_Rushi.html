@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> create html forms </title>
+</head>
+<body>
+    <h3 id="topofpage">create html forms</h3>
+    <form method="post">
+    <table border="0" width="700" height="300" cellspacing="0" cellpadding="4" bgcolor="lightgrey">
+    <th width="100%" align="center" colspan="2"><h2>Login Form</h2></th>
+    <tr>
+        <td width="50%" align="right"> Name: </td>
+        <td width="50%" align="left"><input type="text" name="txtName" placeholder="enter_your_name" size="20" required></td>
+    </tr>
+    <tr>
+       <td width="50%" align="right"> User Name:</td>
+       <td width="50%" align="left"><input type="text" name="txtName" placeholder="username" size="20" required></td>
+    </tr>
+    <tr>
+        <td width="50%" align="right"> DOB: </td>
+        <td width="50%" align="left"><input type="date" name="dtDate" size="20" required></td>
+    </tr>
+    <tr>
+        <td width="50%" align="right"> Email: </td>
+        <td width="50%" align="left"><input type="email" name="emlemail" size="20" placeholder="e-mail" required></td>
+    </tr>
+    <tr>
+       <td width="50%" align="right"> Password: </td>
+       <td width="50%" align="left"><input type="password" name="pwdpassword" size="20" placeholder="password" minlength="8" required ></td>
+    </tr>
+    <tr>
+        <td width="100%" align="center" colspan="2"><input type="submit" value="Login" size="20" required></td>
+    </tr>
+    </table></form><br>
+    <h3><a href="#topofpage">Go to top</a></h3>
+    <!-- Login form close and Course Application Form is Open -->
+    
+    <form method="post">
+    <table border="0" width="700" height="300" cellspacing="0" cellpadding="4" bgcolor="silver">
+    <th width="100%" colspan="2" bgcolor="silver" align="center"><h2>Course Application</h2></th>
+     <tr>
+         <td width="50%" align="left" Valign="bottom">Full Name:* <br><br> <input type="text" name="FlNnane" placeholder="fullname" size="20" required></td>
+         <td width="50%" align="right" Valign="bottom">Last Name: <br><br> <input type="text" name="LNname" placeholder="username" size="20" required></td>
+     </tr>
+     <tr>
+         <td width="50%" align="left" Valign="bottom"><h4>First</h4></td>
+         <td width="50%" align="right" Valign="bottom"><h4>Last</h4></td>
+     </tr> 
+     <tr><td colspan="2" Valign="top" bgcolor="silver"><table border="0" width="80%" cellspacing="2" cellpadding="3" bgcolor="silver"><tr>
+         <td width="50%" align="left" Valign="top">
+         <tr><td width="100%" align="left" Valign="top" hspace="25" style="color: firebrick;"> Which Course Are You applying for?*</td></tr>
+         <tr><td width="100%" align="left"><input type="radio" name="rdCourseApply" value="CourseA"> CourseA</td><br></tr>
+         <tr><td width="100%" align="left"><input type="radio" name="rdCourseApply" value="CourseB"> CourseB</td><br></tr>
+         <tr><td width="100%" align="left"><input type="radio" name="rdCourseApply" value="CourseC"> CourseC</td><br></tr>
+         </td>
+         <td width="50%" align="right"></td>
+        </tr></table></td>
+    </tr>
+    <tr>
+        <td width="100%" align="left" colspan="2">Date Of Birth* <br><br> <input type="date" name="dtDate" size="20" placeholder="DOB" required></td>
+    </tr>
+    <tr><td colspan="2" Valign="top" bgcolor="silver"><table border="0" width="80%" cellspacing="1" cellpadding="2" bgcolor="silver"><tr>
+         <td width="50%" align="left" Valign="top">
+         <tr><td width="100%" align="left" Valign="top" hspace="20" style="color: firebrick;">Gender*</td></tr>
+         <tr><td width="100%" align="left"><input type="radio" name="rdGender" value="Male">Male</td><br></tr>
+         <tr><td width="100%" align="left"><input type="radio" name="rdGender" value="Female">Female</td><br></tr>
+         </td>
+         <td width="50%" align="right"></td>
+        </tr></table></td>
+    </tr>
+    <tr>
+        <td width="100%" align="left" colspan="2" style="color: red;">Education*<br>
+            <select name="SlEducation">
+                <option value="Mechanical">Mechanical</option>
+                <option value="ECE">ECE</option>
+                <option value="EEE">EEE</option>
+                <option value="IT">IT</option>
+                <option value="Civil">Civil</option>
+            </select></td>
+    </tr>
+    <tr>
+        <td width="100%" align="left" colspan="2" style="color: darkblue;"> Email* <br><input type="email" name="emlemail" size="20" placeholder="e-mail" required></td>
+    </tr>
+    <tr>
+        <td width="100%" align="left" colspan="2" style="color: crimson;"> Contact number* <br><br> <input type="number" name="nmbnumber" size="20" placeholder="enter_your_pn_no" required></td>
+    </tr>
+     <tr>
+     <td width="100%" colspan="2" bgcolor="silver"><table border="0" width="80%" cellspacing="2" cellpadding="3" bgcolor="silver"><tr>
+            <td>
+                <tr><td width="100%" align="left" style="color: red;">Address*</td> </tr>
+                <tr><td width="100%"><textarea name="Address" placeholder="Enter_your_address" rows="10" cols="50" required></textarea></td></tr>
+                <tr><td width="100%" style="color: green;"><h4>Address line 1</h4></td></tr>
+                <tr><td width="100%"><textarea name="Address" placeholder="Enter_your_address" rows="10" cols="50" required></textarea></td></tr>
+                <tr><td width="100%" style="color: green;"><h4>Address line 2</h4></td></tr>
+                <tr><td width="50%" style="color: maroon;" align="left"> <textarea name="city" rows="10" cols="30" placeholder="place--"></textarea> <br> <h4>city</h4></td>
+                <td width="50%" style="color: maroon;" align="left"> <textarea name="state" rows="10" cols="30" placeholder="state--"></textarea> <h4>state/Region/Province</h4></td></tr>
+                <tr><td width="50%" align="left" style="color: mediumblue;"><textarea name="zipcode"rows="10" cols="30" placeholder="zipcode--" required></textarea> <br> <h4>postal/zip code</h4></td> 
+                  <td width="50%" align="left" style="color: red;"> Country*<br><br><br>
+                    <select name="SlCountry">
+                        <option value="Germany">Germany</option>
+                        <option value="China">China</option>
+                        <option value="India">India</option>
+                        <option value="America">America</option>
+                        <option value="Malasiya">Malasiya</option>
+                   </select></td></tr>
+                 </td>
+      </tr></table></td> 
+    </tr>
+    <tr><td width="50%" align="right" bgcolor="silver"><input type="image" name="imgsubmit" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzTYBHMEOZ9zPn_gyIrMDQVZSZ-FzC4uyY-w&usqp=CAU" width="120" height="70" required></td> 
+        <td width="50%" align="left" bgcolor="silver" style="color: brown;"><input type="reset" name="rstReset" value="reset" size="30" required></td>
+    </tr>
+    </table></form><br>
+    <h3><a href="#topofpage">Go to top</a></h3>
+    <!-- Course Application  Form is close and Student Regisration Form is Open -->
+
+    <form method="post">
+    <table border="0" width="700" height="300" cellspacing="0" cellpadding="4" bgcolor="lightblue">
+    <th width="100%" colspan="2" align="center" bgcolor="lightblue" colspan="2"><h2>Student Registration Form</h2><hr size="3"></th>
+    <tr>
+    <td width="100%" align="left" colspan="2" style="color: chocolate;">Fullname:<br><br>
+    <input type="text" name="Fltxtname" placeholder="Fullname" size="20" required></td>
+    </tr>
+    <tr>
+    <td width="100%" align="left" colspan="2" style="color: chocolate;">Middlename:<br><br><input type="text"name="Midtxtname"placeholder="Middlename" size="20"required>
+    </td>
+    </tr>
+    <tr>
+    <td width="100%" align="left" colspan="2" style="color: chocolate;">Lastname:<br><br>
+    <input type="text" name="Lsttxtname" placeholder="Lastname" size="20" required></td>
+    </tr>
+    <tr>
+        <td width="50%" align="left" style="color: brown;" Valign="middle">Course:</td>
+        <td width="50%" align="left" style="color: darkorange;" Valign="middle" Hspace="100"> 
+            <select name="SlCourse">
+                <option value="Mechanical">Mechanical</option>
+                <option value="ECE">ECE</option>
+                <option value="EEE">EEE</option>
+                <option value="IT">IT</option>
+                <option value="Civil">Civil</option>
+            </select></td>
+     </tr>
+     <tr>
+       <td width="100%" align="left" colspan="2" Valign="middle" style="color: firebrick;">Gender:
+       <input type="radio" name="rdGender" value="Male">Male
+       <input type="radio" name="rdGender" value="Female">Female
+       <input type="radio" name="rdGender" value="others">others</td>
+    </tr>
+    <tr>
+        <td width="50%" align="left" bgcolor="lightblue">
+          Phone No:<br><br><input type="number" name="nmbnumber" placeholder="+91" value="+91" size="20" minlength="10" readonly>
+        </td>
+        <td width="50%" align="left" bgcolor="lightblue">
+        Enter Your Phone No:<br><br><input type="number" name="nmbnumber" placeholder="enter-your-pn_no" minlength="10" required>
+        </td>
+    </tr>
+    <tr>
+       <td width="100%" colspan="2" align="left" style="color: indianred;">Address: <br><br>
+        <textarea name="Address" placeholder="Current_Address" rows="10" cols="50" required></textarea> <br><br>
+        <textarea name="Address" placeholder="Permanent_Address" rows="10" cols="50" required></textarea> <br><br> 
+     </td>
+    </tr>
+    <tr>
+        <td width="100%" align="left" colspan="2" style="color: crimson;">Email:<br><br><input type="email" name="emlemail" size="20" placeholder="e-mail" required></td>
+    </tr>
+    <tr>
+        <td width="100%" align="left" colspan="2" style="color: crimson;">Password:<br><br><input type="password" name="pwdpassword" placeholder="enter_your_password" size="20" minlength="8" required></td>
+    </tr>
+    <tr>
+        <td width="100%" align="left" colspan="2" style="color: crimson;">Re-enter_password:<br><br><input type="password"name="pwdpassword" placeholder="Re-enter_password" size="20" minlength="8" required></td>
+    </tr>
+    <tr>
+        <td width="100%" align="center" colspan="2" style="color: darkblue;"><input type="submit" name="smsubmit" value="Register" size="20" required></td>
+    </tr>
+    </table></form><br>
+    <h3><a href="#topofpage">Go to top</a></h3>
+    <!--student registration form is close and sign up Form is open -->
+
+    <form method="post">
+    <table border="0" width="700" height="300" cellspacing="0" cellpadding="4" bgcolor="lightgreen">
+    <th width="100%" align="center" bgcolor="lightgreen" colspan="2"><h2>sign up Form</h2></th>
+    <tr>
+         <td width="100%" align="left" style="color: blue;" colspan="2"> Please fill in this form to create an account!<hr></td>
+    </tr>
+    <tr>
+        <td width="50%" align="left"> Name: <br><br><input type="text" name="txtname" placeholder="FirstName" size="20" required></td>
+        <td width="50%" align="left"> UserName:<br><br><input type="text" name="txtname" placeholder="LastName" size="20" required></td>
+    </tr>
+    <tr>
+        <td width="100%" align="left" colspan="2"> Email:<br><br><input type="email" name="emlemail" size="25" placeholder="e-mail" required></td>
+    </tr>
+    <tr>
+       <td width="100%" align="left" colspan="2"> Password: <br><br><input type="password" name="pwdpassword" size="20" placeholder="Password" minlength="8" required></td>
+    </tr>
+    <tr>
+        <td width="100%" align="left" colspan="2"> Password:<br><br>
+        <input type="password" name="pwdpassword" size="20" placeholder="Confirm_password" minlength="8" required></td>
+    </tr>
+    <tr>
+         <td width="100%" align="left" colspan="2" style="color: blue;"><input type="checkbox" name="chkaccept" value="Accept" required> I accept the Terms of use & Privacy Policy.</td>
+    </tr>
+    <tr>
+        <td width="100%" align="center" bgcolor="green" colspan="2" style="color: darkolivegreen;"><input type="submit" name="sbtsubmit" size="20" value="Register Now">
+        </td>
+    </tr>
+    </table></form><br>
+    <h3><a href="#topofpage">Go to top</a></h3>
+    <!-- signup form is close and feedback form is open-->
+
+    <form method="post">
+    <table border="0" width="700" height="300" cellspacing="0" cellpadding="4" bgcolor="pink">
+    <th width="100%" height="40" align="center" colspan="2"><h2>product Review</h2><br><br></th>
+    <tr><td width="100%" align="left" colspan="2"> <h4> We appreciate you taking the time to review our product!</h4></td></tr>
+    <tr>
+         <td width="50%" align="left">Name: <br><br><input type="text" name="txtname" placeholder="Fullname" size="20" required> </td>
+         <td width="50%" align="left">Name: <br><br><input type="text" name="txtname" placeholder="Lastname" size="20" required> </td>
+    </tr>
+    <tr>
+        <td width="50%" align="left" style="color: darkred;"><h3>First Name</h3></td>
+        <td width="50%" align="left" style="color: darkred;"><h3>Last Name</h3></td>
+    </tr>
+    <tr>
+        <td width="100%" align="left" colspan="2" style="color: darkslategrey;"> Email:<br><br> <input type="email" name="emlemail" placeholder="User@example.com" minlength="8" size="25" required></td>
+    </tr>
+    <tr>
+        <td width="100%" align="left" colspan="2" style="color: darkred;">Which product are you Reviewing? <br><br>
+        <select name="Slwhichproduct">
+            <option value="washing_machine">washing_machine</option>
+            <option value="Grinder">Grinder</option>
+            <option value="Mixie">Mixie</option>
+            <option value="Air_conditioner">Air_conditioner</option>
+        </select></td>  
+    </tr>
+     <tr><td width="100%" align="left" colspan="2" style="color: blue;" > Review*<br><br> <textarea name="review" rows="10" cols="50" placeholder="enter_your_comments" required></textarea></td></tr>
+     <tr><td width="100%" align="left" colspan="2" style="color: forestgreen;"><h4>maximum 300 characters</h4></td></tr>
+    <tr>
+        <td width="100%" align="center" colspan="2" style="color: brown;"><h3>Thanks again for your review!</h3></td>
+    </tr>
+    <tr><td width="100%" align="center" colspan="2" style="color: crimson;"> <input type="submit" name="sbtsummit" size="20" required></td></tr>
+    </table></form><br>
+    <h3><a href="#topofpage">Go to top</a></h3>
+    <!--Feedback form is close and Querry? form is open-->
+
+    <form method="post">
+    <table border="0" width="700" height="300" cellspacing="0" cellpadding="4" bgcolor="gray">
+    <th width="100%" align="center" colspan="3"><h2>Query Form</h2></th>
+    <tr><td width="100%" align="left" bgcolor="lightblue" colspan="3"> <i>contact details of the visitor</i></td></tr>
+    <tr>
+        <td width="33%" align="center">FirstName:<br><br><input type="text" name="FNtxtname" placeholder="Fullname" size="20" required></td>
+        <td width="33%" align="center">MiddleName:<br><br><input type="text" name="MNtxtname" placeholder="Middlename" size="20" required></td>
+        <td width="33%" align="center">LastName:<br><br><input type="text" name="LNtxtname" placeholder="Lastname" size="20" required></td>
+    </tr>
+    <tr>
+        <td width="33%" align="center">StreetNo:<br><br><input type="text" name="STNtxtname" placeholder="StreetNo" size="20" required></td>
+        <td width="33%" align="center">city:<br><br><input type="text" name="cttxtname" placeholder="city" size="20" required></td>
+        <td width="33%" align="center">State:<br><br><input type="text" name="Sttxtname" placeholder="State" size="20" required></td>
+    </tr>
+    <tr>
+      <td width="50%" align="center">Phone Number:</td> 
+      <td width="50%" align="center" colspan="2"><input type="number" name="PNnumber" placeholder="enter_your_pn-no" size="20" required></td> 
+    </tr>
+    <tr>
+        <td width="50%" align="center"> E-mail Address <br><br><i>[the basic contact information of the concerned person is required]</i></td>
+        <td width="50%" align="left" colspan="2"><input type="email" name="emlemail" size="25" placeholder="e-mail" required></td>
+    </tr>
+    <tr><td width="100%" align="left" bgcolor="lightblue" colspan="3"><i> official information</i></td></tr>
+    <tr>
+        <td width="50%" align="center">Company name <br></td> 
+        <td width="50%" align="left" colspan="2"><input type="text" name="txtname" placeholder="Companyname" size="20" required></td>
+    </tr>
+    <tr>
+        <td width="50%" align="center"> Occupation <br><br><input type="text" name="opttxt" placeholder="occupation" size="20" required></td>
+        <td width="50%" align="center" colspan="2"> Designation<br><br><input type="text" name="Dsnttxt" placeholder="Designation" size="20" required></td>
+    </tr>
+    <tr>
+        <td width="30%" align="center" Valign="top" bgcolor="white">Official Address</td>
+        <td width="70%" align="center" colspan="2" bgcolor="white"></td>
+    </tr>
+    <tr>
+        <td width="70%" align="center" Valign="middle" colspan="2"> Contact number [proffesional details are required here]</td>
+        <td width="30%" align="center"></td>
+    </tr>
+    <tr>
+        <td width="100%" align="left" colspan="3" bgcolor="lightblue"><i><h3>Query details</h3></i></td>
+    </tr>
+     <tr>
+         <td width="50%" align="center"> You are interested in </td>
+         <td width="50%" align="center" colspan="2"></td>
+     </tr>
+     <tr>
+         <td width="100%" align="left" bgcolor="lightblue" colspan="3"> <h3><i>kindly mention the name of the query product.</i></h3></td>
+     </tr>
+     <tr><td width="100%" align="center" bgcolor="white" colspan="3"></td></tr>
+     <tr>
+         <td width="100%" align="left" colspan="3">Please write your query in brief: <br><br> <hr size="3"> <br><br> [here the interested person will state the query]</td>
+     </tr>
+      <tr>
+          <td width="100%" align="left" colspan="3">
+              <h3>Would you like to hear form: <br><br> <hr size="3"></h3><br>
+               <ul><li> E-mail id</li><br> 
+                <li> Office phone number</li><br>
+                <li> Home phone</li></ul>
+          </td>
+      </tr>
+      <tr>
+           <td width="100%" align="center" colspan="3">Please copy the following mentioned code into the check box: <br> <hr size="3"> [the interested person will confirm the query by filling this box]</td>
+      </tr>
+      <tr><td width="100%" align="center" colspan="3"> <input type="submit" name="sbtsubmit" size="25" required></td></tr>
+   </table></form><br>
+   <h3><a href="#topofpage">Go to top</a></h3>
+   <!-- query form is close and contact form is open-->
+
+   <form method="post">
+       <table border="0" width="700" height="300" cellspacing="0" cellpadding="4" bgcolor="pink">
+        <th width="100%" align="center" colspan="3"><h2><i> Contact Form</i></h2></th>
+        <tr>
+            <td width="100%" colspan="3" align="left" style="color: currentColor;"> <i>Your Name:</i> <br><br> <input type="text" name="txtname" placeholder="your_name" size="25" required></td>
+        </tr>
+        <tr>
+            <td width="100%" align="left" colspan="3" style="color: darkolivegreen;"> <i>Email Address:</i><br><br><input type="email" placeholder="Your_email" size="25"
+            required></td>
+       </tr>
+        <tr>
+            <td width="100%" align="left" colspan="3" style="color: brown;"> <i> Password:</i> <br><br> <input type="password" name="pwdpassword" placeholder="password" minlength="8" size="25" required></td>
+        </tr>
+        <tr>
+            <td width="100%" align="left" colspan="3" style="color: brown;"> <i>Forget Password:</i> <br><br> <input type="password" name="FGpwdpassword" placeholder="forgetpassword" value="Forget_Password" minlength="8" size="25" required></td>
+        </tr>
+        <tr>
+            <td width="100%" align="left" colspan="3" style="color: darkred;"> <i>Subject:</i><br><br> <input type="text" name="txtsubject" placeholder="subject" size="25" required></td>
+        </tr>
+        <tr>
+            <td width="100%" align="left" colspan="3" style="color: darkred;"> <i>Message:</i><br><br> <textarea name="message" rows="10" cols="50" placeholder="enter_your_message" required></textarea></td>
+        </tr>
+        <tr>
+            <td width="100%" colspan="3" align="center" style="color: dimgray;"> <button bgcolor="gray"> <img src="./button_images/download@.jpg" width="150" 
+                height="70" style="background-color: cornsilk;" alt="submit"></button>
+            </td>
+         </tr>
+          <tr><td width="100%" colspan="3" align="center" style="color: dimgray;"> <input type="reset" name="rstReset" value="Reset" size="30"></td> <br></tr>
+       </table>
+   </form>
+   <h3><a href="#topofpage">Go to top</a></h3>
+   <!--contact form is close and new page form types open-->
+</body>
+</html>
